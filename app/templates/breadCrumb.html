@@ -1,0 +1,7 @@
+<ul class="breadcrumb breadcrumb-page">
+  <div class="breadcrumb-label text-light-gray">You are here: </div>
+  <li ng-repeat="crumb in breadcrumbs" ng-class="{ active: $last }">
+  	<a ui-sref="{{ crumb.getRoute() }}" ng-if="!$last">{{ crumb.displayName }}&nbsp;</a>
+  	<span ng-show="$last">{{ crumb.displayName }}</span>
+  </li>
+</ul>

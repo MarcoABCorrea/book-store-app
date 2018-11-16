@@ -1,0 +1,15 @@
+<div id="main-wrapper">
+    <script>
+    var init = [];
+    </script>
+    <div ui-view="topBar"></div>
+    <div ui-view="sideBar"></div>
+    <div id="content-wrapper">
+    	<ui-breadcrumbs displayname-property="data.displayName" abstract-proxy-property="data.proxy"></ui-breadcrumbs>
+        <div ui-view></div>
+    </div>
+</div>
+<div id="main-menu-bg"></div>
+<script type="text/javascript">
+setTimeout(function() {window.PixelAdmin.start(init)});
+</script>
