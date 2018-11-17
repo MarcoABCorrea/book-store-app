@@ -114,3 +114,25 @@ table > tbody > tr > td.location_value {
 table.empty .help {
     visibility: hidden;
 }
+
+img.book-cover {
+  width: 100px;
+  height: 150px;
+}
+
+span.author {
+  color: grey;
+}
+
+#booksTable td.book-detail {
+  display: flex;
+}
+
+#booksTable td {
+  vertical-align: middle !important;
+}
+
+#booksTable .book-title {
+  display: grid;
+  padding: 25px;
+}
