@@ -1,6 +1,12 @@
 # Book Store
 
-This repository contains a simple book list paginated with book details using Angular.js and a Node.js book export/import solution.
+This repository contains a simple book list paginated with book details and export/import solution.
+
+## Stack & Components
+
+* AngularJS
+* Bootstrap
+* SASS
 
 ## Setup and Running
 
